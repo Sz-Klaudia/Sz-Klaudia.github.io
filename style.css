@@ -1,0 +1,87 @@
+body {
+ /* background: rgb(67,67,70);
+background: linear-gradient(66deg, rgba(67,67,70,0.1516981792717087) 0%, rgba(238,91,11,0.6671043417366946) 50%, rgba(13,12,12,0.05926120448179273) 100%); */
+
+background: rgb(135,105,95);
+background: linear-gradient(66deg, rgba(135,105,95,0.6259256427207689) 0%, rgba(70,45,39,0.6259256427207689) 0%, rgba(175,43,16,0.6708694629454881) 9%, rgba(165,66,21,0.4854762045185218) 37%, rgba(238,222,11,0.4489593505859375) 86%, rgba(207,206,197,0.0135660921589712) 97%);
+display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+
+
+.slider {
+  display: flex;
+  height: 500px;
+}
+
+.container {
+  width: 900px;
+  height: 570px;	
+}
+
+.nav {
+  display: flex;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+#rightarrow {
+  transform: rotate(180deg);
+}
+
+#photo {
+  width: 800px;
+  height: 500px;
+}
+
+
+
+.greycontainer {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-family: 'Train One', cursive;
+  text-shadow: 4px 4px 4px #000000ce;
+
+}
+ 
+.photocontainer {
+  position: relative;
+  box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+
+}
+
+.thumbnails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 70px;
+  gap: 20px;
+  
+
+}
+
+.thumbnail {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  border-style: outset;
+  border-color: beige;	
+}
+
+.thumbnail >img{
+  height: 100%;
+}
+
+
+
+
+
